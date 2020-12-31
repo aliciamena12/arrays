@@ -64,7 +64,7 @@ for number in primos:
     donde = donde + 1
     if number == mayor:
         posiciones.append(donde)
-print("Posiciones donde se encuentra el número con mayor cantidad de dígitos primos: " str(posiciones))  
+print("Posiciones donde se encuentra el número con mayor cantidad de dígitos primos: " + str(posiciones))  
 
 #44. Leer 10 números enteros, almacenarlos en un vector y determinar cuántos de los números
 # almacenados en dicho vector pertenecen a los 100 primeros elementos de la serie de
@@ -85,6 +85,7 @@ for num in vector:
     for dato in fibonacci:
         if num == dato:
             contador = contador + 1
+            break
 print("Cantidad de números que aparecen en los 100 primeros numeros de la lista de Fibonacci son: " + str(contador))
 
 #45. Leer 10 números enteros, almacenarlos en un vector y determinar cuántos números de los
